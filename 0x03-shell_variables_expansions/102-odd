@@ -1,3 +1,2 @@
 #!/bin/bash
 cat -n input_file | grep -E '^[[:space:]]*([02468]|10)\s' | cut -f2-
-
