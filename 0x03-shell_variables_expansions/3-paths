@@ -1,2 +1,2 @@
 #!/bin/bash
-echo "$PATH" | tr ':' '\n' | gre -c '/'
+export PATH="$PATH" | tr ':' '\n' | gre -c '/'
