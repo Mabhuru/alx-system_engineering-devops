@@ -1,2 +1,2 @@
 #!/bin/bash
-export PATH="$PATH" | tr ':' '\n' | gre -c '/'
+echo "$PATH" | find . -maxdepth 1 -type d | wc -1
